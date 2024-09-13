@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#logo-btn {
+    display: flex;
+    flex-direction: row;
+    margin: auto .4vw auto 0;
+    text-decoration: none;
+}
+
+#logo-btn img {
+    height: 7vh;
+    align-self: center;
+    margin: auto .8vw;
+}
+
+#logo-btn > h1 {
+    color: black;
+}
+
+#clock {
+    align-self: center;
+    margin-right: .9vw;
+}
