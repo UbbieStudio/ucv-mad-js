@@ -10,6 +10,6 @@ function stopClock() {
 }
 /*****************************************/
 
-
-
-console.log("Hello, world!");
+window.onload = function () { 
+    console.log("Hello, world!");
+}
