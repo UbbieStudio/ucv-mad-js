@@ -1,6 +1,6 @@
-
-console.log("Hello, world!");
-
+/*****************************************/
+/* Ignoramos esta parte por el momento */
+/*****************************************/
 let intervalId = window.setInterval(function () {
     console.log("Clock isn't working yet!");
 }, 10000);
@@ -8,3 +8,8 @@ let intervalId = window.setInterval(function () {
 function stopClock() { 
     clearInterval(intervalId);
 }
+/*****************************************/
+
+
+
+console.log("Hello, world!");
