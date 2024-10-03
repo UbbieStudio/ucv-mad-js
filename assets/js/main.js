@@ -10,6 +10,12 @@ function stopClock() {
 }
 /*****************************************/
 
+const playlist = [
+    {
+        name: ''
+    }
+];
+
 window.onload = function () {
     console.log("Hello, world!");
 
