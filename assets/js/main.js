@@ -5,11 +5,16 @@ let intervalId = window.setInterval(function () {
     console.log("Clock isn't working yet!");
 }, 10000);
 
-function stopClock() { 
+function stopClock() {
     clearInterval(intervalId);
 }
 /*****************************************/
 
-window.onload = function () { 
+window.onload = function () {
     console.log("Hello, world!");
+
+    const player = document.getElementById('audio-player');
+    console.dir(player);
+    console.log(player);
+    console.log(player.src);
 }
