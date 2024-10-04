@@ -35,6 +35,9 @@ sudo apt install git
 En muchos casos, la primera vez que usamos GIT en el sistema, hemos de configurar nuestro nombre de usuario y nuestro email. Para ello, ejecutamos los siguientes comandos en la terminal sustituyendo los valores finales por los que corresponda en vuestro caso. *(Para usuarios de Windows, la terminal por defecto en vuestro sistema es PowerShell, debéis cambiar a Git Bash para ejecutar estos comandos)
 
 git config --global user.name el_nombre_de_usuario_que_quieras
+
+y
+
 git config --global user.email tu_email_en_github
 
 Para ver si lo hemos configurado correctamente podemos ejecutar el siguiente comando:
