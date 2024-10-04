@@ -14,9 +14,9 @@ El primer paso es instalar Homebrew (https://brew.sh/) si no lo tenéis instalad
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-Os pedirá contraseña de usuario del ordenador (aunque parece que no se escriba nada, sí se está escribiendo, ponedla y dadle a enter).
+Os pedirá contraseña de usuario del ordenador (aunque parece que no se escriba nada cuando tecleáis, sí se está escribiendo, ponedla y dadle a enter).
 
-Una vez haya concluido, al final del propio log de la instalación os dice que copiéis y ejecutéis tres comandos que aparecen ahí mismo para añadir Hombrew al PATH de vuestro sistema. Hacedlo.
+Una vez haya concluido, al final del propio log de la instalación os dice que copiéis y ejecutéis tres comandos que aparecen ahí mismo para añadir Homebrew al PATH de vuestro sistema. Hacedlo.
 
 Hecho esto, procedemos a instalar GIT con el siguiente comando: 
 
@@ -30,13 +30,13 @@ En muchas distribuciones GIT viene preinstalado, si no, en la terminal, a travé
 
 sudo apt install git
 
+## Configurando GIT
 
+En muchos casos, la primera vez que usamos GIT en el sistema, hemos de configurar nuestro nombre de usuario y nuestro email. Para ello, ejecutamos los siguientes comandos en la terminal sustituyendo los valores finales por los que corresponda en vuestro caso. *(Para usuarios de Windows, la terminal por defecto en vuestro sistema es PowerShell, debéis cambiar a Git Bash para ejecutar estos comandos)
 
+git config --global user.name el_nombre_de_usuario_que_quieras
+git config --global user.email tu_email_en_github
 
+Para ver si lo hemos configurado correctamente podemos ejecutar el siguiente comando:
 
-
-
-Para configurar tu nombre de usuario y tu correo en git, ejecuta los siguientes comandos en la terminal sustituyendo los valores <> por los que corresponda (¡¡¡Quita también los <> !!!)
-
-git config --global user.name <Tu nombre de usuario (el que quieras)>
-git config --global user.email <El mail con en el que estés registrado en GitHub>
+git config -l
