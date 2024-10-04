@@ -13,7 +13,9 @@ function stopClock() {
 const playlist = [
     {
         name: 'Comes love.m4a',
-        source: 'https://www.youtube.com/watch?v=_WifOsGaBh4'
+        source: 'https://www.youtube.com/watch?v=_WifOsGaBh4',
+        authors: '',
+        comments: ''
     }
 ];
 
