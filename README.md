@@ -56,4 +56,4 @@ El asistente nos preguntará en qué carpeta/directorio de nuestro sistema quere
 
 Una vez clonado el repositorio, VS-Code os preguntará si queréis abrirlo, la respuesta es sí.
 
-Y listo, ya tenemos nuestro entorno listo para trabajar con el proyecto.
+Y listo, ya tenemos nuestro entorno listo para trabajar con el proyecto. Veréis que en la carpeta que hayáis elegido, se ha creado una carpeta nueva con el nombre de vuestro repositorio. Ahí es donde vamos a trabajar.
