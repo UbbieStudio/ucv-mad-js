@@ -1,4 +1,6 @@
-# ucv-p5js
+## Mi Proyecto Javascript - Programación Web Avanzada (MAD-UCV)
+
+# Primeros pasos
 
 # Para configurar tu nombre de usuario y tu correo en git, ejecuta los siguientes comandos en la terminal sustituyendo los valores <> por los que corresponda (¡¡¡Quita también los <> !!!)
 
