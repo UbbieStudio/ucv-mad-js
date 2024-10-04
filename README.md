@@ -4,9 +4,9 @@
 
 Para empezar a trabajar con el proyecto, lo primero que debemos hacer es asegurarnos de tener instalado GIT en nuestro sistema.
 
-- Windows: https://git-scm.com/downloads/win (64-bit Standalone Installer). El asistente os hará mil preguntas, sí a todo.
+**Windows**: https://git-scm.com/downloads/win (64-bit Standalone Installer). El asistente os hará mil preguntas, sí a todo.
 
-- iOS: El primer paso es instalar Homebrew (https://brew.sh/) si no lo tenéis instalado ya.  Abrid una terminal y ejecutad el siguiente comando:
+**iOS**: El primer paso es instalar Homebrew (https://brew.sh/) si no lo tenéis instalado ya.  Abrid una terminal y ejecutad el siguiente comando:
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -20,7 +20,7 @@ brew install git
 
 Y listo, podemos seguir.
 
-- Linux: En muchas distribuciones GIT viene preinstalado, si no a través de vuestro gestor de paquetes (apt, rpm, dnf, yum...) podéis instalarlo desde los repositorios oficiales. Por ejemplo para distros basadas en Debian:
+**Linux**: En muchas distribuciones GIT viene preinstalado, si no a través de vuestro gestor de paquetes (apt, rpm, dnf, yum...) podéis instalarlo desde los repositorios oficiales. Por ejemplo para distros basadas en Debian:
 
 sudo apt install git
 
