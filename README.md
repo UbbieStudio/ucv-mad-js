@@ -1,6 +1,6 @@
 # Mi Proyecto Javascript - Programación Web Avanzada (MAD-UCV)
 
-## Primeros pasos
+## Instalando GIT en nuestro sistema
 
 Para empezar a trabajar con el proyecto, lo primero que debemos hacer es asegurarnos de tener instalado GIT en nuestro sistema.
 
@@ -26,7 +26,7 @@ Y listo, podemos seguir.
 
 **Linux**
 
-En muchas distribuciones GIT viene preinstalado, si no a través de vuestro gestor de paquetes (apt, rpm, dnf, yum...) podéis instalarlo desde los repositorios oficiales. Por ejemplo para distros basadas en Debian:
+En muchas distribuciones GIT viene preinstalado, si no, en la terminal, a través de vuestro gestor de paquetes (apt, rpm, dnf, yum...) podéis instalarlo desde los repositorios oficiales. Por ejemplo para distros basadas en Debian:
 
 sudo apt install git
 
