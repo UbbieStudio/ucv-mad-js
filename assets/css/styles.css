@@ -34,7 +34,7 @@ header {
     margin: auto .8vw;
 }
 
-#logo-btn > h1 {
+#logo-btn>h1 {
     font-size: 3vh;
     color: black;
 }
@@ -50,6 +50,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100vw;
     height: 88vh;
 }
@@ -60,7 +61,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 3vh;
-    
+
 }
 
 footer h2 {
