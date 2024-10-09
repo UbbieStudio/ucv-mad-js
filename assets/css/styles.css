@@ -72,7 +72,7 @@ main {
     height: fit-content;
     margin-top: 1vh;
     margin-right: .6vw;
-    padding: 1vh 1vw;
+    padding: 1vh .7vw;
     border-radius: 50px;
 }
 
@@ -83,7 +83,7 @@ main {
 
 .h-container>#clicker-container>svg:hover {
     cursor: pointer;
-    fill: orange;
+    /*fill: orange;*/
 }
 
 footer {
