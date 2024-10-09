@@ -84,7 +84,6 @@ main {
 
 .h-container>#clicker-container>svg:hover {
     cursor: pointer;
-    /*fill: orange;*/
 }
 
 footer {
