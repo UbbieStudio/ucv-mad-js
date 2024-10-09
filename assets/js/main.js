@@ -46,3 +46,9 @@ function throwDie(elem) {
     const rand = randInt(0, 5);
     elem.children[0].setAttribute('d', dice[rand]);
 }
+
+function changeTheme() {
+    const main = document.getElementsByTagName('main');
+    console.dir(main);
+    main[0].style.backgroundImage = "url('../assets/img/moonlit-lake.jpg')";
+}
