@@ -55,6 +55,23 @@ main {
     height: 88vh;
 }
 
+.h-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.h-container>#clicker-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    height: 7vh;
+}
+
 footer {
     display: flex;
     flex-direction: row;
