@@ -74,6 +74,7 @@ main {
     margin-right: .6vw;
     padding: 1vh .7vw;
     border-radius: 50px;
+    border: solid 1px white;
 }
 
 .h-container>#clicker-container>svg {
