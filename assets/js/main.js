@@ -2,7 +2,7 @@
 /* Ignoramos esta parte por el momento */
 /*****************************************/
 let intervalId = window.setInterval(function () {
-    console.log("Clock isn't working yet!");
+    //console.log("Clock isn't working yet!");
 }, 10000);
 
 function stopClock() {
@@ -11,7 +11,7 @@ function stopClock() {
 /*****************************************/
 
 window.onload = function () {
-    console.log("This is my JavaScript project!");
+    //console.log("This is my JavaScript project!");
 }
 
 function randInt(min, max) {
@@ -47,8 +47,15 @@ function throwDie(elem) {
     elem.children[0].setAttribute('d', dice[rand]);
 }
 
-function changeTheme() {
-    const main = document.getElementsByTagName('main');
-    console.dir(main);
-    main[0].style.backgroundImage = "url('../assets/img/moonlit-lake.jpg')";
+function toggleTheme() {
+    const main = document.getElementsByTagName('main')[0];
+    if (main.style.backgroundImage == "") {
+        main.style.backgroundImage = "url('../assets/img/moonlit-lake.jpg')";
+    }
+    else if (main.style.backgroundImage.includes("moonlit-lake")) {
+        main.style.backgroundImage = main.style.backgroundImage.replace("moonlit-lake", "park-sunset");
+    }
+    else {
+        main.style.backgroundImage = main.style.backgroundImage.replace("park-sunset", "moonlit-lake");
+    }
 }
