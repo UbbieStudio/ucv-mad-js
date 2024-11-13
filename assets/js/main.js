@@ -1,3 +1,8 @@
+
+var tema = 'claro';
+
+
+
 /*****************************************/
 /* Ignoramos esta parte por el momento */
 /*****************************************/
@@ -76,9 +81,16 @@ function toggleTheme(elem) {
         main.style.backgroundImage = main.style.backgroundImage.replace("park-sunset", "moonlit-lake");
     }
 
+    // Podemos ver las diferentes funciones que nos ofrece JavaScript para seleccionar elementos del documento en: https://www.w3schools.com/js/js_htmldom_elements.asp
+    // Y los diferentes eventos de ratón que podemos interceptar en: https://www.w3schools.com/jsref/obj_mouseevent.asp
+
+    // En estos casos tengo que recuperar el primer elemento del array con el selector [0] porque getElementsByTagName() devuelve siempre arrays
     const header = document.getElementsByTagName('header')[0];
-    const title = document.querySelector("header h1");
     const footer = document.getElementsByTagName('footer')[0];
+
+    // En este caso no porque querySelector() sólo devuelve la primera ocurrencia. querySelectorAll() devolvería todas las ocurrencias, esta vez sí, en un array
+    const title = document.querySelector("header h1");
+
 
     if (header.style.backgroundColor == "") {
         header.style.backgroundColor = "rgb(43, 46, 54)";
