@@ -61,8 +61,7 @@ function lanzarDado(elem) {
     elem.children[0].setAttribute('d', dice[rand]);
 }
 
-
-
+/* Función para alternar entre tema claro y oscuro */
 function cambiarTema(elem) {
 
     // Podemos ver las diferentes funciones que nos ofrece JavaScript para seleccionar elementos del documento en: https://www.w3schools.com/js/js_htmldom_elements.asp
@@ -123,10 +122,11 @@ function cambiarTema(elem) {
     }
 }
 
-window.onload = function () {
-    //console.log("This is my JavaScript project!");
-}
-
+/* Función para generar números ENTEROS aleatorios entre un mínimo y un máximo */
 function numeroAleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+window.onload = function () {
+    //console.log("This is my JavaScript project!");
 }
