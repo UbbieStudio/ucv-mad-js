@@ -26,9 +26,11 @@ var tema = 'claro';
 /*****************************************/
 /* Ignoramos esta parte por el momento */
 /*****************************************/
-let intervalId = window.setInterval(function () {
-    //console.log("Clock isn't working yet!");
-}, 10000);
+let intervalId = window.setInterval(updateClock(), 10000);
+
+function updateClock() {
+
+}
 
 function stopClock() {
     clearInterval(intervalId);
@@ -56,9 +58,8 @@ function elRatonHaSalido(elem) {
 }
 
 /* Función para generar una tirada aleatoria entre 0 y 5 y cambiar el icono del dado a su forma correspondiente */
-function lanzarDado(elem) {
-    const rand = numeroAleatorio(0, 5);
-    elem.children[0].setAttribute('d', dice[rand]);
+function lanzarDados(elem) {
+    elem.children[0].setAttribute('d', dice[numeroAleatorio(0, 5)])
 }
 
 /* Función para alternar entre tema claro y oscuro */
