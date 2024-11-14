@@ -121,56 +121,6 @@ function cambiarTema(elem) {
         // Cambio el valor de mi variable auxiliar "tema"  para alternar entre tema claro y oscuro
         tema = 'claro';
     }
-
-
-
-
-
-
-
-    // // Changing button's icon (moon/sun) and it's color
-    // if (elem.children[0].getAttribute('d') == day_night[0]) {
-    //     elem.children[0].setAttribute('d', day_night[1]);
-    //     elem.children[0].style.fill = "#fbb301";
-    // }
-    // else {
-    //     elem.children[0].setAttribute('d', day_night[0]);
-    //     elem.children[0].style.fill = "#b6cdff";
-    // }
-
-    // // Changing main's background image
-
-    // if (main.style.backgroundImage == "") {
-    //     main.style.backgroundImage = "url('../assets/img/moonlit-lake.jpg')";
-    // }
-    // else if (main.style.backgroundImage.includes("moonlit-lake")) {
-    //     main.style.backgroundImage = main.style.backgroundImage.replace("moonlit-lake", "park-sunset");
-    // }
-    // else {
-    //     main.style.backgroundImage = main.style.backgroundImage.replace("park-sunset", "moonlit-lake");
-    // }
-
-    // if (header.style.backgroundColor == "") {
-    //     header.style.backgroundColor = "rgb(43, 46, 54)";
-    //     footer.style.backgroundColor = "rgb(43, 46, 54)";
-    //     header.style.color = "white";
-    //     title.style.color = "white";
-    //     footer.style.color = "white";
-    // }
-    // else if (header.style.backgroundColor == "rgb(43, 46, 54)") {
-    //     header.style.backgroundColor = "white";
-    //     footer.style.backgroundColor = "white";
-    //     header.style.color = "black";
-    //     title.style.color = "black";
-    //     footer.style.color = "black";
-    // }
-    // else {
-    //     header.style.backgroundColor = "rgb(43, 46, 54)";
-    //     footer.style.backgroundColor = "rgb(43, 46, 54)";
-    //     header.style.color = "white";
-    //     title.style.color = "white";
-    //     footer.style.color = "white";
-    // }
 }
 
 window.onload = function () {
