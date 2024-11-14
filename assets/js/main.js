@@ -55,7 +55,7 @@ function elRatonHaSalido(elem) {
     elem.style.fill = 'white';
 }
 
-/* Función para generar una tirada aleatoria entre 0 y 5 */
+/* Función para generar una tirada aleatoria entre 0 y 5 y cambiar el icono del dado a su forma correspondiente */
 function lanzarDado(elem) {
     const rand = numeroAleatorio(0, 5);
     elem.children[0].setAttribute('d', dice[rand]);
