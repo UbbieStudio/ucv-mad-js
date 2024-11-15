@@ -1,16 +1,16 @@
-@font-face {
+/* @font-face {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
-}
+} */
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    font-family: 'Ubuntu', "times new roman", times, serif;
+    font-family: "times new roman", times, serif;
 }
 
 header {
